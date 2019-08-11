@@ -1,0 +1,143 @@
+ body{
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #social-media{
+            width: 100%;
+            height: 30px;
+            background-color:rgb(88, 86, 138); 
+        }
+        .top{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            z-index: 999;
+            transition: 0.2s;
+        }
+        .logo{
+            flex: 3;
+        }
+        .logo img{
+            width: 100px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .fa{
+            z-index: 999 !important;
+           margin: 20px;
+           cursor: pointer;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+    .menu{
+        overflow: hidden;
+        transition: 0.5s;
+        height: 100%;
+        width: 0px;
+        background-image: linear-gradient(to right, rgb(88, 86, 138), rgba(88, 86, 138, 0.4));
+        /* background: rgb(88, 86, 138); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu ul li{
+        list-style: none;
+        margin: 15px 5px;
+    }
+    .menu ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    .menu ul li a:hover{
+        color: white;
+        transition: 0.6s;
+    }
+    .ativa{
+        width: 200px;
+    }
+    #container{
+        display: flex;
+        height: 700px;
+    }
+    .img{
+        background-image: url('../img/marriage.jpg');
+        background-size: cover; 
+        flex: 3;
+    }
+    .describle{
+        background-color: rgba(88, 86, 138, 0.74);
+        width: 400px;
+        float: right;
+        margin: 20% 50px;
+        padding: 20px;
+    }
+
+    footer{
+        background:  rgb(88, 86, 138);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo-2{
+        flex: 1;
+    }
+    .logo-2 img{
+        border-radius: 50%;
+        width: 100px;
+        position: relative;
+        top: 30%;
+        left: 20%;
+    }
+    .addres{
+        flex: 2;
+    }
+    .maps{
+        flex: 1;
+        padding: 20px;
+    }
+    .first{
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    .who{
+        flex: 1;
+        margin: 10px;
+    }
+    .txt{
+        flex: 2;
+    }
+    #fixed{
+        background-color: white;
+    }
+    .fixo{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+    @media(max-width: 750px){
+        .ativa{
+        width: 100%;
+        position: fixed;
+        top: 130px;
+        z-index: 999;
+        background-image: linear-gradient(to right, rgb(88, 86, 138), rgb(174, 173, 207));
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .logo-2 img{
+        top: 0%;
+        left: 0%;
+    }
+    }
