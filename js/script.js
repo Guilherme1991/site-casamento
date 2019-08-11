@@ -9,8 +9,8 @@ function ativa(){
 window.addEventListener('scroll', ()=>{
     if(this.scrollY >= 1){
         fixo.classList.add('fixo')
-        logo.setAttribute('style','width: 150')
-        topo.setAttribute('style','height: 150')
+        logo.setAttribute('style','width: 110')
+        topo.setAttribute('style','height: 110')
     }else{
         fixo.classList.remove('fixo')
         logo.setAttribute('style','height: 100')
